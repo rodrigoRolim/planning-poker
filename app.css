@@ -1,0 +1,124 @@
+
+
+#buttonStart {
+    font-size: 40px;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    background-color:  rgb(197, 27, 27);
+    border-style: none;
+    border-radius: 8px;
+
+    
+}
+
+#toolbar {
+    margin-bottom: 100px;
+    height: 40px;;
+    display: flex;
+    justify-content: space-between;
+}
+
+#blockUsers {
+
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 300px;
+}
+
+#blockText {
+
+    margin: auto;
+    background-color: rgb(197, 27, 27, 0.8);
+    border-radius: 15px;
+    height: 150px;
+    width: 250px;
+    position: relative;
+}
+
+#pick {
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 60px;
+    text-align: center;
+    position: absolute;
+}
+#show {
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 60px;
+    margin-left: 80px;
+    border-style: none;
+
+    position: absolute;
+
+    
+}
+
+#voting {
+    font-size: 15px;
+    padding: 5px;
+    border-style: none;
+    margin-top: 60px;
+    margin-left: 60px;
+    position: absolute;
+
+}
+
+
+#blockUsers1 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 300px;
+}
+
+#image {
+    margin-top: 20px;
+    height: 50px;
+    width: 30px;
+    background-color: rgba(163, 163, 163, 0.507);
+    border-radius: 4px;
+}
+
+#nickname {
+    text-align: center;
+}
+
+#blockChoose {
+    margin: auto;
+    height: 150px;
+    width: 700px;
+
+}
+.text {
+    font-size: 20px;
+    text-align: center;
+}
+#blockCards {
+    display: flex;
+    justify-content: center;
+
+}
+.cards {
+    border: solid 2px rgb(197, 27, 27);
+    margin: 5px;
+    height: 50px;
+    width: 30px;
+    border-radius: 4px;
+    transition: width 1s, height 1s;;
+
+}
+
+.cards:active {
+    background-color: rgb(197, 27, 27);
+}
+
+.cards:hover {
+    height: 60px;
+    width: 40px;
+    
+}

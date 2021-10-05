@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Planning Poker</title>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+	<div id="app">
+		<button id="buttonStart" onclick="startNewGame()">Start Game</button>
+
+		<div id="blockGame" style="display: none;">
+			<div id="toolbar">
+				<h2 id="gameName"></h2>
+				<button>Invite players</button>
+			</div>
+
+			<div id="blockUsers2">
+				<div class="user2">
+					<div id="image2"></div>
+					<p id="nickname2"></p>
+				</div>
+			</div>
+			
+			<div id="blockText">
+				<p id="pick" >Pick your cards!</p>
+				<button id="show" style="display: none;" onclick="showCards()" >Show cards</button>
+				<button id="voting" style="display: none;" onclick="newVoting()">Starting new voting</button>
+			</div>
+
+			<div id="blockUsers">
+				<div class="user">
+					<div id="image"></div>
+					<p id="nickname"></p>
+				</div>
+			</div>
+
+			<div id="blockChoose">
+				<p class="text">Choose your card 👇</p>
+				<div id="blockCards"></div>
+
+			</div>
+
+			<div id="blockCounting" style="display: none;">
+				<p>Average:</p>
+				<p id="average"></p>
+
+			</div>
+		</div>
+	</div>
+
+	</div>
+	<script src="/app.js"></script>
+    
+</body>
+</html>
